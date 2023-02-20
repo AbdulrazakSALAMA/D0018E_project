@@ -1,0 +1,14 @@
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+python -m uvicorn main:app --reload
+
+python -m pytest
+
+gcloud app logs tail -s default
+
+gcloud app describe
+
+gcloud app deploy --version test-13

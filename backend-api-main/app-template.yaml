@@ -1,0 +1,23 @@
+runtime: python310 # or another supported version
+
+instance_class: F2
+
+env_variables:
+  ENV: "stg"
+  DB_USERNAME: ""
+  DB_PASSWORD: ""
+  DB_HOST: ""
+  DB_NAME: ""
+  DB_POOLSIZE: ""
+
+# handlers:
+# - url: /.*
+#   secure: always
+#   redirect_http_response_code: 301
+#   script: auto
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 3
+
+entrypoint: gunicorn -b 0.0.0.0:8080 --timeout=20 --worker-class=uvicorn.workers.UvicornWorker --workers=2 main:app
