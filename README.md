@@ -40,9 +40,9 @@ Contributions to the project are welcome. To contribute, follow these steps:
 5. Create a pull request.
 
 ## Authour
-[Ahmad Allahham]-[ahmall-0@student.ltu.se]
+Ahmad Allahham- ahmall-0@student.ltu.se
 
-[Olle Scherling]-[ollsch-1@student.ltu.se	]
+Olle Scherling- ollsch-1@student.ltu.se
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
