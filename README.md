@@ -38,7 +38,7 @@ Contributions to the project are welcome. To contribute, follow these steps:
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Create a pull request.
 
-## Authour
+## Developer
 
 Ahmad Allahham ahmall-0@student.ltu.se
 
