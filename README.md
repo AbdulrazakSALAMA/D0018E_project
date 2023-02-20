@@ -1,7 +1,6 @@
-# D0018E_project
 # Online Bookstore
 
-This project is part of the D0018E course at Luleå University of Technology.
+This project is part of the D0018E course at Luleå University of Technology. 
 
 ## Description
 
@@ -9,10 +8,10 @@ The project aims to create a web application for managing a bookstore. The appli
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript
-- FastAPI framework from Python
-- MySQL
-- Git
+- HTML, CSS, and JavaScript for frontend development
+- FastAPI framework for Python-based backend development
+- MySQL for database managemen
+- Git for version control
 
 ## Getting Started
 
@@ -40,9 +39,10 @@ Contributions to the project are welcome. To contribute, follow these steps:
 5. Create a pull request.
 
 ## Authour
-Ahmad Allahham- ahmall-0@student.ltu.se
 
+Ahmad Allahham- ahmall-0@student.ltu.se
 Olle Scherling- ollsch-1@student.ltu.se
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
