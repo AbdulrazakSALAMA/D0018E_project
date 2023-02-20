@@ -121,7 +121,7 @@ def insert_video_in_db(conn, user_info: UserInfo, url: str, company_id: int = No
 # ToDo
 def _check_company_id(conn, user_info: UserInfo):
     company_id = None
-    if user_info.role == "worker":
+    if user_info.role == "customer":
         company_id = get_worker_info(conn, user_info.id).active_company_id
     if user_info.role == "manager":
         info = get_manager_info(conn, user_info.id)
