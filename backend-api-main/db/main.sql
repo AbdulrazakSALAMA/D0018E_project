@@ -66,7 +66,6 @@ CREATE TABLE customer (
   PRIMARY KEY (customer_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
 CREATE TABLE order(
   'order_id' int(10) UNSIGNED NOT NULL,
   'customer_id' int(10) UNSIGNED NOT NULL,
@@ -86,7 +85,6 @@ CREATE TABLE product(
   'updated_at' timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (product_id)
 ) ENGINE=InnoDB AUTO_INCREMENT=7822 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 CREATE TABLE book (
   'book_id' int(10) UNSIGNED NOT NULL,
